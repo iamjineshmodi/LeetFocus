@@ -13,5 +13,11 @@
     },
     "action": {
       "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/leetfocus_icon16.png",
+      "32":  "images/leetfocus_icon32.png",
+      "48": "images/leetfocus_icon48.png",
+      "128": "images/leetfocus_icon128.png"
     }
 }
