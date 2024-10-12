@@ -49,4 +49,4 @@ chrome.tabs.onActivated.addListener(function(activeInfo) {
   updatePoints();
 });
 
-setInterval(updatePoints, 60000); // Update points every minute
+setInterval(updatePoints, 10000); // Update points every minute
