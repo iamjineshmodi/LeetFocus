@@ -1,10 +1,17 @@
 {
     "name": "LeetFocuser",
-    "description": "Base Level Extension",
+    "description": "Tracks time on LeetCode and Reddit, manages points, and redirects when points reach zero.",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": [
+      "tabs",
+      "storage",
+      "webNavigation"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
     "action": {
-      "default_popup": "hello.html",
-      "default_icon": "default_icon.png"
+      "default_popup": "popup.html"
     }
-  }
+}
