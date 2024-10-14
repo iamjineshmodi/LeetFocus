@@ -8,7 +8,7 @@ function updatePoints() {
       const timeSpent = (currentTime - lastCheckedTime) / 10000; // Converts 1 minute to 1 point gained
       lastCheckedTime = currentTime;
 
-      const allowed = ['leetcode.com', 'geeksforgeeks.com', 'interviewbit.com', 'hackerearth.com', 'programiz.com']
+      const allowed = ['leetcode.com', 'atcoder.jp', 'geeksforgeeks.com', 'interviewbit.com', 'hackerearth.com', 'programiz.com']
       const distractions = ['reddit.com', 'facebook.com', 'instagram.com', 'youtube.com', 'divicast.com', 'fmovies.com']
       let allowed_len = allowed.length;
       let distractions_len = distractions.length;
