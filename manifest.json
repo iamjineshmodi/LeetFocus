@@ -9,11 +9,9 @@
       "webNavigation"
     ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "Background.js"
     },
-    "action": {
-      "default_popup": "popup.html"
-    },
+    "action": {},
     "icons": {
       "16": "images/leetfocus_icon16.png",
       "32":  "images/leetfocus_icon32.png",
