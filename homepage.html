@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Points Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>LeetFocus Points</h1>
+  <div class="points-display">
+    <p>Current Points Remaining: <span id="points">0</span></p>
+  </div>
+
+  <div class="input-section">
+    <label for="allowed-sites">Allowed Sites (Earn Points)</label>
+    <textarea id="allowed-sites" placeholder="Enter sites separated by commas"></textarea>
+    <p class="helper-text">Example: leetcode.com, codeforces.com</p>
+    <p class="helper-text">Add them as comma seperated values</p>
+  </div>
+
+  <div class="input-section">
+    <label for="distraction-sites">Distraction Sites (Lose Points)</label>
+    <textarea id="distraction-sites" placeholder="Enter sites separated by commas"></textarea>
+    <p class="helper-text">Example: reddit.com, facebook.com</p>
+    <p class="helper-text">Add them as comma seperated values</p>
+  </div>
+
+  <div class="input-section">
+    <label for="redirect-url">Redirect URL</label>
+    <input type="text" id="redirect-url" value="https://leetcode.com" placeholder="Enter redirect URL">
+    <p class="helper-text">Website to redirect to when points reach zero</p>
+    <p class="helper-text"> Don't forget to keep the https:// </p>
+  </div>
+
+  <button class="save-btn" id="save-settings">Save Settings</button>
+  <div id="status">Settings saved successfully!</div>
+  <script src="homepage.js"></script>
+</body>
+</html>
