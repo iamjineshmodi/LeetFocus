@@ -55,10 +55,9 @@ Give LeetFocus a try and transform your coding practice into an uninterrupted, f
 
 
 
-(Old)Planning:
+#(Old)
 
-# LeetFocus
-
+Planning:LeetFocus
 1. I will take note of amount of time spent on www.leetcode.com/*
 2. I will give user 1 point for every 1 minute spent on LeetCode
 3. I will deduct 5 points for every 1 minute spent on Reddit (+ Instagram + Facebook)
